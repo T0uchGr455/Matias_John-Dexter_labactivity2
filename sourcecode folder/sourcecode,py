@@ -1,0 +1,32 @@
+student_db = {}
+NotInDb = True
+Stopper = False
+
+while NotInDb == True and Stopper == False:
+    student_num = input("Enter Student Number: ").strip()
+
+    if student_num in student_db:
+        print("Error: A student with this number already exists!")
+        NotInDb = False
+    else:
+        Fname = input("Enter First Name: ").strip()
+        Mname = input("Enter Middle Initial: ").strip()
+        Sname = input("Enter Surname: ").strip()
+        year = input("Enter Year Level (e.g., 1st Year, 2nd Year): ").strip()
+        email = input("Enter Email Address: ").strip()
+        gwa = input("Enter current GWA: ").strip()
+        units = input("Enter Units enrolled: ").strip()
+        
+
+        student_db[student_num] = {
+            "First name": Fname,
+            "Middle initial": Mname,
+            "Last name": Sname,
+            "year": year,
+            "email": email,
+            "gwa": gwa,
+            "units": units
+        }
+        print(f"\nSuccessfully added {Fname} {Mname}. {Sname} to the database!")
+        print("\nCurrent Database:", student_db,"\n")
+    Stopper = input("Do you want to stop adding students? (yes/no): ").strip().lower() == "yes"

@@ -1,0 +1,49 @@
+Sample 1:
+
+Enter Student Number: 2024100504
+Enter First Name: John Dexter 
+Enter Middle Initial: P
+Enter Surname: Matias
+Enter Year Level (e.g., 1st Year, 2nd Year): 3rd Year
+Enter Email Address: jdpmatias@mymail.mapua.edu.ph
+Enter current GWA: 1.8
+Enter Units enrolled: 18
+
+Successfully added John Dexter P. Matias to the database!
+
+Current Database: {'2024100504': {'First name': 'John Dexter', 'Middle initial': 'P', 'Last name': 'Matias', 'year': '3rd Year', 'email': 'jdpmatias@mymail.mapua.edu.ph', 'gwa': '1.8', 'units': '18'}} 
+
+Sample 2:
+
+Do you want to stop adding students? (yes/no): no 
+Enter Student Number: 2024100486                 
+Enter First Name: Aaron Nathaniel
+Enter Middle Initial: D
+Enter Surname: Tahal
+Enter Year Level (e.g., 1st Year, 2nd Year): 3rd Year
+Enter Email Address: andtahal@mymail.mapua.edu.ph
+Enter current GWA: 2
+Enter Units enrolled: 16
+
+Successfully added Aaron Nathaniel D. Tahal to the database!
+
+Current Database: {'2024100504': {'First name': 'John Dexter', 'Middle initial': 'P', 'Last name': 'Matias', 'year': '3rd Year', 'email': 'jdpmatias@mymail.mapua.edu.ph', 'gwa': '1.8', 'units': '18'}, '2024100486': {'First name': 'Aaron Nathaniel', 'Middle initial': 'D', 'Last name': 'Tahal', 'year': '3rd Year', 'email': 'andtahal@mymail.mapua.edu.ph', 'gwa': '2', 'units': '16'}} 
+
+Sample 3:
+
+Enter Student Number: 2024100504
+Enter First Name: John Dexter
+Enter Middle Initial: P
+Enter Surname: Matias
+Enter Year Level (e.g., 1st Year, 2nd Year): 3rd Year
+Enter Email Address: jdpmatias@mymail.mapua.edu.ph
+Enter current GWA: 1.8
+Enter Units enrolled: 18
+
+Successfully added John Dexter P. Matias to the database!
+
+Current Database: {'2024100504': {'First name': 'John Dexter', 'Middle initial': 'P', 'Last name': 'Matias', 'year': '3rd Year', 'email': 'jdpmatias@mymail.mapua.edu.ph', 'gwa': '1.8', 'units': '18'}} 
+
+Do you want to stop adding students? (yes/no): no
+Enter Student Number: 2024100504
+Error: A student with this number already exists!
